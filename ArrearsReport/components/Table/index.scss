@@ -1,0 +1,70 @@
+.tableWrap {
+  font-size: 12px;
+  border-radius: 6px;
+  margin: 5px 0 10px;
+  overflow: hidden;
+}
+.left {
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 99;
+}
+.leftContent {
+  float: left;
+  width: 100px;
+  max-height: calc(100vh - 70px);
+  position: relative;
+  z-index: 99;
+}
+.right {
+  background-color: "blue";
+  overflow-x: scroll;
+}
+.rightContent {
+  max-height: calc(100vh - 70px);
+  position: relative;
+    ::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width : 10px;  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 1px;
+  }
+}
+.noData {
+  text-align: center;
+  margin: 5px 10px;
+  border-radius: 6px;
+  padding: 20% 0 20%;
+  color: #90959A;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  .nodataTips {
+    margin: 5px;
+  }
+}
+.tipsText {
+  color: #90959a;
+  font-size: 12px;
+  padding: 5px 0 0 12px;
+  display: flex;
+  align-items: center;
+  .tipsImg {
+    margin: 1px 2px;
+    .img {
+      width: 12px;
+      height: 12px;
+    }
+  }
+}
+.tips {
+  color: #90959a;
+  font-size: 14px;
+}
+.saleIndex {
+  background: #fff;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+}
